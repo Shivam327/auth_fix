@@ -30,7 +30,11 @@ app_license = "mit"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/auth_fix/css/auth_fix.css"
-# web_include_js = "/assets/auth_fix/js/auth_fix.js"
+web_include_js = [
+    "/assets/auth_fix/js/crypto-js.min.js",
+    "/assets/auth_fix/js/secure_login_patch.js",
+]
+
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "auth_fix/public/scss/website"
@@ -241,4 +245,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
